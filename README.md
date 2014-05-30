@@ -9,6 +9,7 @@ How to use:
 3. Connect Me baseboard to computer with micro USB cable.
 
 4. Open GCodepraser->GCodeParser.ino by Arduino IDE. Click Tools->Serial Ports, choose COM XX (Not COM1 and COM2). Click Tools->Boards, choose Arduino Leonardo. At last, click "upload" button on the right-top corner.
+
 [![alt text](images/Upload.png "Upload program to Me Baseboard")](https://www.Makeblock.cc)
 
 5. Close Arduino IDE, open GRemote->GRemote.pde. Click "run" button on the right-top corner.
