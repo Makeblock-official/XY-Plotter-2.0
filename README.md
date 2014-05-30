@@ -13,6 +13,6 @@ How to use:
 
 5. Close Arduino IDE, open GRemote->GRemote.pde. Click "run" button on the right-top corner.
 
-6. Now, you could control the XY-Plotter 2.0 by mouse and keyboard. And, you can also run it with Gcode. You could generate Gcode file by another software ([![alt text]dxf2gcode](https://code.google.com/p/dxf2gcode/)) or any other capable) . You should save the Gcode file with .cnc and open it by GRemote.
+6. Now, you could control the XY-Plotter 2.0 by mouse and keyboard. And, you can also run it with Gcode. You could generate Gcode file by another software (dxf2gcode(https://code.google.com/p/dxf2gcode/) or any other capable). You should save the Gcode file with .cnc and open it by GRemote.
 
 [![alt text](images/XY Plotter 2.0.jpg "Makeblock XY Plotter 2.0")](http://www.makeblock.cc/xy-plotter-robot-kit-2-0/)
