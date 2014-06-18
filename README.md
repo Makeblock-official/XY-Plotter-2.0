@@ -1,6 +1,12 @@
 [![alt text](images/Logo.png "Makeblock Logo") Library v2.1.0422](https://www.Makeblock.cc)
 
+
+
 How to use:
+
+You will get a complete instruction of how to construct the XY Plotter 2.0 in assembly instruction.pdf. As for the software, you could refer to the software manaual.pdf. You could learn how to run the XY plotter 2.0 in the basic version, and the complete version will tell you more details.
+
+Here is a brief instruction about the software:
 
 1. Download and install Processing-2.1.2，http://processing.org/ 
 
