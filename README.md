@@ -11,7 +11,7 @@ The package consists of the software(Arduino firmware and GRemote), structure as
 3. Connect Me baseboard to computer with micro USB cable.
 
 4. Open GCodepraser->GCodeParser.ino by Arduino IDE. Click Tools->Serial Ports, choose COM XX (Not COM1 and COM2). Click Tools->Boards, choose Arduino Leonardo. At last, click "upload" button on the right-top corner.
-[![alt text](images/Upload.png "Upload program to Me Baseboard")](https://raw.githubusercontent.com/Makeblock-official/XY-Plotter-2.0/master/images/Upload.png)
+                                                [![alt text](images/Upload.png "Upload program to Me Baseboard")](https://raw.githubusercontent.com/Makeblock-official/XY-Plotter-2.0/master/images/Upload.png)
 
 5. Close Arduino IDE, open GRemoteFull->GRemote.bat. 
 
