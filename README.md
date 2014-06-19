@@ -4,18 +4,18 @@ The package consists of the software(Arduino firmware and GRemote), structure as
 
 Brief Procedure
 
-1. Download and install Arduino-1.0.5，http://arduino.cc/en/Main/Software
+1, Download and install Arduino-1.0.5，http://arduino.cc/en/Main/Software
 
-2. Download the software package and decompress it，https://github.com/Makeblock-official/XY-Plotter-2.0/archive/master.zip
+2, Download the software package and decompress it，https://github.com/Makeblock-official/XY-Plotter-2.0/archive/master.zip
 
-3. Connect Me baseboard to computer with micro USB cable.
+3, Connect Me baseboard to computer with micro USB cable.
 
-4. Open GCodepraser->GCodeParser.ino by Arduino IDE. Click Tools->Serial Ports, choose COM XX (Not COM1 and COM2). Click Tools->Boards, choose Arduino Leonardo. At last, click "upload" button on the right-top corner.
+4, Open GCodepraser->GCodeParser.ino by Arduino IDE. Click Tools->Serial Ports, choose COM XX (Not COM1 and COM2). Click Tools->Boards, choose Arduino Leonardo. At last, click "upload" button on the right-top corner.
 [![alt text](images/Upload.png "Upload program to Me Baseboard")](https://raw.githubusercontent.com/Makeblock-official/XY-Plotter-2.0/master/images/Upload.png)
 
-5. Close Arduino IDE, open GRemoteFull->GRemote.bat. 
+5, Close Arduino IDE, open GRemoteFull->GRemote.bat. 
 
-6. Set the COM port, then GRemote will show you the UI as follows. That all for this part.
+6, Set the COM port, then GRemote will show you the UI as follows. That all for this part.
 
 [![alt text](images/GRemote.jpg "Set the COM port")](https://raw.githubusercontent.com/Makeblock-official/XY-Plotter-2.0/master/images/GRemote.jpg)
 
