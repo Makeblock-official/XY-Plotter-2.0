@@ -22,7 +22,7 @@ The package consists of the software(Arduino firmware and GRemote), structure as
 
 For more details, please refer to the software instruction.
 
-###DIY
+###How to DIY
 
 If you want change the source code, you could find it in GRemotFull/source/GRemote.pde.
 
