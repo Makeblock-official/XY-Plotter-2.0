@@ -2,7 +2,7 @@
 
 The package consists of the software(Arduino firmware and GRemote), structure assembly instruction and program instruction.
 
-Brief Procedure
+###Brief Procedure
 
 1. Download and install Arduino-1.0.5，http://arduino.cc/en/Main/Software
 
@@ -21,6 +21,8 @@ Brief Procedure
 7. Now, you could control the XY-Plotter 2.0 by mouse and keyboard. And, you can also run it with Gcode. You could generate Gcode file by another software (dxf2gcode(https://code.google.com/p/dxf2gcode/) or any other capable). You should save the Gcode file with .cnc and open it by GRemote.
 
 For more details, please refer to the software instruction.
+
+###DIY
 
 If you want change the source code, you could find it in GRemotFull/source/GRemote.pde.
 
