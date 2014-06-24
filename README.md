@@ -1,4 +1,4 @@
-[![alt text](images/Logo.png "Makeblock Logo") Library v2.1.0422](https://www.Makeblock.cc)
+[![alt text](images/Logo.png "Makeblock Logo") ](https://www.Makeblock.cc)
 
 The package consists of the software(Arduino firmware and GRemote), structure assembly instruction and program instruction.
 
