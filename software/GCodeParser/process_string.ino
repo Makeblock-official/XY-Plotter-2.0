@@ -238,7 +238,7 @@ void process_string(char instruction[], int size)
 			//go home.
 			case 28:
 				set_target(0.0, 0.0, 0.0);
-				dda_move(getMaxSpeed());
+				goto_machine_zero();
 			break;
 
 			//go home via an intermediate point.
@@ -267,7 +267,7 @@ void process_string(char instruction[], int size)
 
 				//go home.
 				set_target(0.0, 0.0, 0.0);
-				dda_move(getMaxSpeed());
+				goto_machine_zero();
 			break;
 
 			//Absolute Positioning
