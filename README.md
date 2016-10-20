@@ -31,3 +31,5 @@ If you want change the source code, you could find it in GRemotFull/source/GRemo
 3. Open the GRemote.pde by Processing, DIY the code and click the “run” button to test it.
 
 [![alt text](images/XY Plotter 2.0.jpg "Makeblock XY Plotter 2.0")](http://www.makeblock.cc/xy-plotter-robot-kit-2-0/)
+
+###Learn more from Makeblock official website: www.makeblock.com
