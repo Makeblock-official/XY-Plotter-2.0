@@ -451,7 +451,7 @@ void process_string(char instruction[], int size)
 //look for the number that appears after the char key and return it
 double search_string(char key, char instruction[], int string_size)
 {
-	char temp[10] = "";
+	char temp[11] = "";
 
 	for (byte i=0; i<string_size; i++)
 	{
@@ -468,6 +468,7 @@ double search_string(char key, char instruction[], int string_size)
 				i++;
 				k++;
 			}
+                        temp[k] = 0;
 			return strtod(temp, NULL);
 		}
 	}
