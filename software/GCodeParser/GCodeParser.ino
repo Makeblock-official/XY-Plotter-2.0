@@ -32,7 +32,7 @@ int SENSORS_INVERTING = 1;
 *
 * this uses the undocumented feature of Arduino - pins 14-19 correspond to analog 0-5
 ****************************************************************************************/
-
+#if defined(__AVR_ATmega32U4__) // Leonardo 
 int X_STEP_PIN = 8;
 int X_DIR_PIN = 11;
 int X_ENABLE_PIN = 4;
@@ -51,6 +51,45 @@ int Z_ENABLE_PIN = 4;
 int Z_MIN_PIN = A1;
 int Z_MAX_PIN = A0;
 int Z_ENABLE_SERVO = 1;
+#endif 
+#if defined(__AVR_ATmega328P__) // Uno/Orion Board
+// A Ports are A for Analog, not a hex code
+// Pin numbers from diagram on http://learn.makeblock.com/makeblock-orion/
+// Port 1 Uno/Orion
+int X_DIR_PIN = 10;  
+int X_STEP_PIN = 11;
+
+// Port 2 Uno/Orion
+int Y_DIR_PIN = 3;
+int Y_STEP_PIN = 9;
+
+// Port 3 Uno/Orion
+int Y_MIN_PIN = 13;
+int Y_MAX_PIN = 12; 
+
+// Port 6 Uno/Orion
+// Note instructions say port 8 
+// but the X Limits dont work with pins A0 and A7, they only work in port 6
+int X_MIN_PIN = 17; // (16, 17 can be A2, A3) 
+int X_MAX_PIN = 16; 
+
+// Port 7 Uno/Orion
+// Z_DIR_PIN Not used for servo.  
+int Z_DIR_PIN = -1; 
+int Z_STEP_PIN = A1; //15
+
+// Nothing connected here, just defining to a value.
+int Z_MIN_PIN = -1;
+int Z_MAX_PIN = -1;
+
+int X_ENABLE_PIN = -1;
+int Y_ENABLE_PIN = -1;
+int Z_ENABLE_PIN = -1;
+int Z_ENABLE_SERVO = 1;
+
+#endif
+
+
 #define COMMAND_SIZE 128
 
 char commands[COMMAND_SIZE];
