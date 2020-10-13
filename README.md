@@ -26,8 +26,8 @@ For more details, please refer to the software instruction.
 
 If you want change the source code, you could find it in GRemotFull/source/GRemote.pde.
 
-1. Download and install Processing-2.1.2. http://processing.org/
-2. Install the Processing library, controlP5 -- copy the whole folder to C:\Users\xxx\Documents\Processing\libraries
+1. Download and install the Processing-2.1.2. http://processing.org/
+2. Install the Processing library, and controlP5 -- copy the whole folder to C:\Users\xxx\Documents\Processing\libraries
 3. Open the GRemote.pde by Processing, DIY the code and click the “run” button to test it.
 
 [![alt text](images/XY Plotter 2.0.jpg "Makeblock XY Plotter 2.0")](http://www.makeblock.cc/xy-plotter-robot-kit-2-0/)
